@@ -1,0 +1,33 @@
+/* #5cdb95 #379683 #05386b #8ee4af #edf5e1  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #5cdb95;
+}
+
+.container-whole {
+  height: 100vh;
+  margin: auto;
+  max-width: 120rem;
+  background-color: #379683;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+@media (max-width: 1000px) {
+  .container-whole {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}
